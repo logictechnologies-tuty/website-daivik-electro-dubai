@@ -841,3 +841,23 @@
     object-fit: contain;
     /* keeps logo proportional */
 }
+
+
+
+/* Read More button visibility */
+.read-more-btn {
+    display: inline-block;
+}
+
+.collapse.show~.read-more-btn {
+    display: none;
+}
+
+/* Read Less button visibility */
+.read-less-btn {
+    display: none;
+}
+
+.collapse.show~.read-less-btn {
+    display: inline-block;
+}

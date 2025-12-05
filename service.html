@@ -42,8 +42,6 @@
     </div>
     <!-- Spinner End -->
 
-
-
     <!-- Navbar & Hero Start -->
     <div class="container-fluid header-top">
         <div class="container d-flex align-items-center">
@@ -131,7 +129,6 @@
     </div>
     <!-- Navbar & Hero End -->
 
-
     <!-- Header Start -->
     <div class="container-fluid bg-breadcrumb">
         <div class="container text-center py-5" style="max-width: 900px;">
@@ -144,7 +141,6 @@
         </div>
     </div>
     <!-- Header End -->
-
 
     <!-- Services Start -->
     <div class="container-fluid service py-5">
@@ -163,17 +159,12 @@
                     <ul class="nav">
                         <li class="nav-item me-lg-0 mb-4">
                             <a class="py-3 px-5 active" data-bs-toggle="pill" href="#ServiceTab-1">
-                                <span>Commercial</span>
+                                <span>Dewa Approval</span>
                             </a>
                         </li>
                         <li class="nav-item me-lg-0 mb-4">
                             <a class="py-3 px-5" data-bs-toggle="pill" href="#ServiceTab-2">
-                                <span>Residential</span>
-                            </a>
-                        </li>
-                        <li class="nav-item me-lg-0 mb-4 mb-lg-0">
-                            <a class="py-3 px-5" data-bs-toggle="pill" href="#ServiceTab-3">
-                                <span>Industrial</span>
+                                <span>Fitout Works</span>
                             </a>
                         </li>
                     </ul>
@@ -182,29 +173,89 @@
                     <div class="tab-content">
                         <div id="ServiceTab-1" class="tab-pane fade show p-0 active">
                             <div class="service-carousel owl-carousel">
+
                                 <div class="service-item">
                                     <img src="img/commercial-1.jpg" class="img-fluid w-100" alt="">
+
                                     <div class="border border-top-0 p-4">
                                         <h4 class="mb-3">Brite Spark Services</h4>
-                                        <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                            Exercitationem, beatae ex. Id esse autem ratione vero cupiditate tempora
-                                            recusandae est!
+
+                                        <p class="mb-4">
+                                            DEWA approvals refer to the permits and certifications issued by Dubai
+                                            Electricity and Water Authority (DEWA) for various construction, demolition,
+                                            modification, infrastructure projects, and electricity or water connections.
+                                            These approvals ensure that all electrical and water systems in a building
+                                            meet the safety standards set by DEWA.
                                         </p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+
+                                        <!-- Collapsed Text -->
+                                        <div class="collapse" id="readmore1">
+                                            <p>For instance, if you’re planning to build a property in Dubai, you need
+                                                to obtain a Building Electrical No Objection Certificate from DEWA
+                                                before starting any electrical work on-site. Similarly, you need to
+                                                secure a Water No Objection Certificate for any water-related
+                                                installations.</p>
+                                            <p>Moreover, DEWA also offers services related to modifying electricity or
+                                                water networks. If someone wants an additional connected load or to
+                                                upgrade their existing one, then they must apply for an NOC first which
+                                                is an abbreviation of No Objection Certificate.</p>
+                                            <p>Getting these approvals can be daunting as it requires thorough knowledge
+                                                of DEWA’s regulations and guidelines. However, once obtained it
+                                                guarantees the safe operation of your premises’ electrical and water
+                                                systems while avoiding fines imposed due to non-compliance with the law.
+                                            </p>
+                                        </div>
+
+                                        <!-- Read More (visible when collapsed) -->
+                                        <a class="btn btn-primary py-2 px-4 mt-2 read-more-btn"
+                                            data-bs-toggle="collapse" href="#readmore1" aria-expanded="false">
+                                            Read More
+                                        </a>
+
+                                        <!-- Read Less (visible when expanded) -->
+                                        <a class="btn btn-secondary py-2 px-4 mt-2 read-less-btn"
+                                            data-bs-toggle="collapse" href="#readmore1" aria-expanded="true">
+                                            Read Less
+                                        </a>
+
                                     </div>
                                 </div>
+
                                 <div class="service-item">
                                     <img src="img/commercial-2.jpg" class="img-fluid w-100" alt="">
+
                                     <div class="border border-top-0 p-4">
                                         <h4 class="mb-3">Energy Ease Packages</h4>
-                                        <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                            Exercitationem, beatae ex. Id esse autem ratione vero cupiditate tempora
-                                            recusandae est!
-                                        </p>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
+
+                                        <p class="mb-4">All applications are submitted through DEWA’s online portal.</p>
+                                        <p>Our team will help you compile and upload all the required documents and a
+                                            full set of MEP drawings.</p>
+                                        <p>Once submitted, the status of the application can be tracked online and
+                                            notified through SMS and emails.</p>
+
+                                        <!-- Collapsed text -->
+                                        <div class="collapse" id="readmore1">
+                                            <p>Once DEWA approves the technical drawings, we then submit an application
+                                                for a technical field inspection.</p>
+                                            <p>Subject to approval, DEWA will then arrange installation meters and
+                                                release the power connection.</p>
+                                        </div>
+
+                                        <!-- Read More (visible when collapsed) -->
+                                        <a class="btn btn-primary py-2 px-4 mt-2 read-more-btn"
+                                            data-bs-toggle="collapse" href="#readmore1" aria-expanded="false">
+                                            Read More
+                                        </a>
+
+                                        <!-- Read Less (visible when expanded) -->
+                                        <a class="btn btn-secondary py-2 px-4 mt-2 read-less-btn"
+                                            data-bs-toggle="collapse" href="#readmore1" aria-expanded="true">
+                                            Read Less
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="service-item">
+
+                                <!-- <div class="service-item">
                                     <img src="img/commercial-3.jpg" class="img-fluid w-100" alt="">
                                     <div class="border border-top-0 p-4">
                                         <h4 class="mb-3">Daivik Electromechanical Care Packages</h4>
@@ -214,10 +265,13 @@
                                         </p>
                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
-                                </div>
+                                </div> -->
+
                             </div>
+
                         </div>
-                        <div id="ServiceTab-2" class="tab-pane fade show p-0">
+
+                        <!-- <div id="ServiceTab-2" class="tab-pane fade show p-0">
                             <div class="service-carousel owl-carousel">
                                 <div class="service-item">
                                     <img src="img/residential-1.jpg" class="img-fluid w-100" alt="">
@@ -290,7 +344,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+
                     </div>
                 </div>
             </div>
@@ -389,12 +444,6 @@
         </div>
     </div>
     <!-- Copyright End -->
-
-
-
-
-
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
